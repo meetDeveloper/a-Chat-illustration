@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Chat App Illustration</title>
+</head>
+<body>
+<main>
+<div class="container flex">
+  <div class="app-box">
+    <div class="avatar-box flex align-items">
+      <div class="arrow">      
+        <div class="top-arrow"></div>
+        <div class="bottom-arrow"></div>
+      </div>
+      <div class="flex align-items gap">
+      <img class="avatar" src="images/avatar.jpg" alt="avatar">
+      <div class="flex column">
+        <p class="avatar-name">
+          Samuel Green
+        </p>
+        <p class="avatar-status">
+          Available to Walk
+        </p>
+      </div>
+      </div>
+      <div class="side-dots">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <div class="container-main">
+        <p class="text-left sm-margin">That sounds great. I’d be happy with that.</p>
+        <p class="text-left bg-margin">Could you send over some pictures of your dog, please?</p>
+      <div class="flex column no-gap">
+        <div class="dog flex sm-margin">
+          <img class="dog-img" src="images/dog-image-1.jpg" alt="dog">
+          <img class="dog-img" src="images/dog-image-2.jpg" alt="dog">
+          <img class="dog-img" src="images/dog-image-3.jpg" alt="dog">
+        </div>
+        <p class="text-right text--rg sm-margin">Here are a few pictures. She’s a happy girl!</p>
+        <span class="text-right bg-margin">Can you make it?</span>
+      </div>
+        <p class="text-left sm-margin"> She looks so happy! The time we discussed works. How long shall I take her out for?
+        </p>
+        
+        <form>
+        <div class="walk-section sm-margin text-left">
+          <input type="radio" id="choice-1" name="choose" value="30-min-$29" checked>
+          <label for="choice-1" class="flex align-end">
+          <p class="walk-time">
+            30 minutes walk
+          </p>
+            <p class="walk-price">$29</p>
+          </label>
+        </div>
+
+
+        <div class="walk-section bg-margin text-left">
+          <input type="radio" id = "choice-2" name="choose" value="1hour-walk-$49">
+          <label for="choice-2" class="flex align-end">
+          <p class="walk-time">
+            1 hour walk
+          </p>
+            <p class="walk-price">$49</p>
+          </label>
+        </div>
+        </form>
+
+        <form class="text">
+          <input type="text" placeholder="Type a message...">
+          <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" class="arrow-right" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg></button>
+        </form>       
+    </div>
+    </div>
+  
+  <div class="hero-box">
+    <h1 class="hero-heading">Simple booking</h1>
+    <p class="hero-description">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+      discuss arrangements and make bookings. Once the walk has been completed you can rate 
+      your walker and book again all through the chat.</p>
+    </div>
+</main>    
+</div>
+</body>
+</html>
